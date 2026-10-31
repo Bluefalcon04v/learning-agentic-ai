@@ -1,0 +1,11 @@
+# Local RAG Knowledge Assistant — educational dependencies
+# Install with: pip install -r requirements.txt
+#
+# Embeddings + chat both use OpenAI (no Ollama, no torch / transformers).
+# FAISS uses the CPU package. No CUDA / GPU packages required.
+
+langchain
+langchain-community
+langchain-openai
+langchain-ollama
+python-dotenv

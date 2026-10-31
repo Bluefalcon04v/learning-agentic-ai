@@ -1,0 +1,31 @@
+[project]
+name = "learn-agentic-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Amit Sah", email = "amitsah04v@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "docx2txt>=0.8",
+    "faiss-cpu>=1.8.0",
+    "ipykernel>=7.4.0",
+    "langchain>=0.3.0",
+    "langchain-community>=0.3.0",
+    "langchain-core>=0.3.0",
+    "langchain-ollama>=1.1.0",
+    "langchain-openai>=0.2.0",
+    "langchain-text-splitters>=0.3.0",
+    "pypdf>=4.0.0",
+    "python-docx>=1.1.0",
+    "python-dotenv>=1.0.0",
+    "streamlit>=1.32.0",
+]
+
+[project.scripts]
+learn-agentic-ai = "learn_agentic_ai:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
